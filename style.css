@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Heebo');
+
+@font-face { 
+	font-family: 'New Yorker'; 
+	src: url("New Yorker.ttf") format('embedded-opentype');
+}
+
+.main-container {
+	font-family: 'Alegreya', serif;
+}
+
+/* The hero image */
+
+a {
+	text-decoration: none;
+	color: #17202A;
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+.hero-image {
+	height: 80%;
+	background-image: url("Benjamin-TheNEAReallyIsntWelfareforRichLiberalElites-690.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.hero-text {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	color: #FDFEFE;
+	font-family: "New Yorker";
+	font-size: 125%;
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+}
+
+.photographer {
+	color: #B3B6B7;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	font-family: 'Heebo', sans-serif;
+
+}
+
+.article{
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 23px;
+	width: 65%;
+}
+
+#l {
+	display: inline-block;
+	float: left;
+	font: 300 6em/.5em Alegreya;
+	font-style: normal;
+	margin: .069em;
+	padding: .1em .07em 0 0;
+	color: #17202A;
+}
+
+l {
+	text-decoration: none;
+	color: #17202A;
+}
+
+.links {
+	font-family: "New Yorker";
+	float: right;
+	width: 30%;
+}
+
+.links li {
+	font-family: Alegreya;
+	font-size: 1.5em;
+}
+
+.links p {
+	font-family: 'Heebo';
+}
+
+p.linkTitle {
+	font-family: "New Yorker";
+	padding-left: 40px;
+	font-size: 2.5em;
+}
+
+
+blockquote {
+	border-left: 2px solid #17202A;
+	margin: 0.5em 10px;
+	padding: 0.5em 10px;
+}
+
+p.bottom {
+	font-family: 'Heebo'
+}
+
+p.more {
+	font-family: "New Yorker";
+	font-size: 40px;
+}
+
+p.picone{
+	font-family: "New Yorker";
+	font-size: 1.2em;
+	padding: 0.2em 10px;
+	text-align: left;
+}
+
+p.pictwo {
+	font-family: "New Yorker";
+	font-size: 1.2em;
+	padding: 0.2em 10px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
